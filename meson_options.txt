@@ -1,0 +1,6 @@
+option(
+  'test',
+  description: 'Test',
+  type: 'boolean',
+  value: 'true',
+)

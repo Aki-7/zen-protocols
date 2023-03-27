@@ -1,0 +1,8 @@
+prefix=@prefix@
+datarootdir=@datarootdir@
+pkgdatadir=${pc_sysrootdir}${datarootdir}/@package_name@
+
+Name: Zen Protocols
+Description: Zen protocol files
+Version: @zen_protocols_version@
+
