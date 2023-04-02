@@ -28,10 +28,14 @@
 
   <interface name="zen_xr_system" version="1">
     <request name="connect"/>
-    <event name="name">
-      <arg name="name" type="string" />
+    <event name="status">
+      <arg name="status" type="uint" enum="status"/>
     </event>
-    <event name="disconnect"/>
-    <event name="connected"/>
+
+    <enum name="status">
+      <entry name="available" value="0"/>
+      <entry name="connected" value="1"/>
+      <entry name="unavailable" value="1"/>
+    </enum>
   </interface>
 </protocol>
